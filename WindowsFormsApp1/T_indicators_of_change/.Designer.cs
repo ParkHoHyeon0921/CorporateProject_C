@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.map2 = new WindowsFormsApp1.Map();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -51,6 +50,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.map2 = new WindowsFormsApp1.Map();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -69,18 +69,10 @@
             this.panel1.Size = new System.Drawing.Size(792, 662);
             this.panel1.TabIndex = 0;
             // 
-            // map2
-            // 
-            this.map2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.map2.Location = new System.Drawing.Point(19, 62);
-            this.map2.Name = "map2";
-            this.map2.Size = new System.Drawing.Size(750, 597);
-            this.map2.TabIndex = 2;
-            // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button5.Font = new System.Drawing.Font("평창체 Regular", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button5.ForeColor = System.Drawing.Color.Black;
             this.button5.Location = new System.Drawing.Point(347, 19);
             this.button5.Name = "button5";
@@ -92,7 +84,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button4.Font = new System.Drawing.Font("평창체 Regular", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Location = new System.Drawing.Point(265, 19);
             this.button4.Name = "button4";
@@ -104,7 +96,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button3.Font = new System.Drawing.Font("평창체 Regular", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(183, 19);
             this.button3.Name = "button3";
@@ -116,7 +108,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button2.Font = new System.Drawing.Font("평창체 Regular", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(101, 19);
             this.button2.Name = "button2";
@@ -129,7 +121,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(83)))), ((int)(((byte)(255)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("평창체 Regular", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(19, 19);
             this.button1.Name = "button1";
@@ -165,7 +157,7 @@
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.label2.Font = new System.Drawing.Font("평창체 Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label2.Location = new System.Drawing.Point(62, 67);
@@ -177,7 +169,7 @@
             // 
             // label6
             // 
-            this.label6.Font = new System.Drawing.Font("평창체 Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label6.Location = new System.Drawing.Point(325, 196);
             this.label6.Name = "label6";
@@ -188,7 +180,7 @@
             // 
             // label4
             // 
-            this.label4.Font = new System.Drawing.Font("평창체 Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label4.Location = new System.Drawing.Point(331, 146);
             this.label4.Name = "label4";
@@ -199,7 +191,7 @@
             // 
             // label5
             // 
-            this.label5.Font = new System.Drawing.Font("평창체 Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label5.Location = new System.Drawing.Point(62, 196);
             this.label5.Name = "label5";
@@ -210,7 +202,7 @@
             // 
             // label7
             // 
-            this.label7.Font = new System.Drawing.Font("평창체 Bold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label7.Location = new System.Drawing.Point(203, 146);
             this.label7.Name = "label7";
@@ -221,7 +213,7 @@
             // 
             // label8
             // 
-            this.label8.Font = new System.Drawing.Font("평창체 Bold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label8.Location = new System.Drawing.Point(203, 196);
             this.label8.Name = "label8";
@@ -233,7 +225,7 @@
             // label12
             // 
             this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.label12.Font = new System.Drawing.Font("평창체 Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label12.Location = new System.Drawing.Point(270, 342);
             this.label12.Name = "label12";
@@ -244,7 +236,7 @@
             // label11
             // 
             this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.label11.Font = new System.Drawing.Font("평창체 Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label11.Location = new System.Drawing.Point(168, 342);
             this.label11.Name = "label11";
@@ -255,7 +247,7 @@
             // label15
             // 
             this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.label15.Font = new System.Drawing.Font("평창체 Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label15.Location = new System.Drawing.Point(326, 443);
             this.label15.Margin = new System.Windows.Forms.Padding(0);
@@ -268,7 +260,7 @@
             // label14
             // 
             this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.label14.Font = new System.Drawing.Font("평창체 Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label14.Location = new System.Drawing.Point(66, 443);
             this.label14.Margin = new System.Windows.Forms.Padding(0);
@@ -280,7 +272,7 @@
             // label10
             // 
             this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
-            this.label10.Font = new System.Drawing.Font("평창체 Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label10.Location = new System.Drawing.Point(62, 342);
             this.label10.Name = "label10";
@@ -290,7 +282,7 @@
             // 
             // label13
             // 
-            this.label13.Font = new System.Drawing.Font("평창체 Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label13.Location = new System.Drawing.Point(196, 404);
             this.label13.Name = "label13";
@@ -301,7 +293,7 @@
             // 
             // label9
             // 
-            this.label9.Font = new System.Drawing.Font("평창체 Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label9.Location = new System.Drawing.Point(62, 282);
             this.label9.Name = "label9";
@@ -312,7 +304,7 @@
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("평창체 Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label3.Location = new System.Drawing.Point(62, 146);
             this.label3.Name = "label3";
@@ -323,7 +315,7 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("평창체 Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label1.Location = new System.Drawing.Point(62, 33);
             this.label1.Name = "label1";
@@ -331,6 +323,14 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "ㅇㅇ동의 상권변화지표";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // map2
+            // 
+            this.map2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.map2.Location = new System.Drawing.Point(19, 62);
+            this.map2.Name = "map2";
+            this.map2.Size = new System.Drawing.Size(750, 597);
+            this.map2.TabIndex = 2;
             // 
             // UserControl1
             // 
@@ -349,16 +349,11 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
         private Map map1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label12;
@@ -372,5 +367,10 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private Map map2;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label8;
+        public System.Windows.Forms.Label label7;
+        public System.Windows.Forms.Panel panel2;
     }
 }
